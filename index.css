@@ -53,7 +53,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(244, 38%, 16%);
-    margin: 100px;
+    margin: 50px;
+    height: 60vh;
+    width: 80vw;
     border-radius: 5px;
     overflow: hidden;
 }
@@ -62,7 +64,7 @@ body {
    flex: 40%;
    position: relative;
    background-color: aliceblue;
-   height: 100%;
+
 }
 
 #overlay {
@@ -101,6 +103,8 @@ body {
     }
     .main-container {
         flex-direction: column-reverse;
+        height: auto;
+        width: auto;
     }
     .all-stats {
         flex-direction: column;
