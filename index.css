@@ -7,32 +7,7 @@
     
 }
 
-p {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 10px;
-    color:  hsla(0, 0%, 100%, 0.75);
-    
-}
-.stats {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
-}
-h1 {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-}
-#insights {
-    color: hsl(277, 64%, 61%);
-}
 
-.stats-desc {
-    font-family: 'Lexend Deca', sans-serif;
-    font-size: 8px;
-    text-transform: uppercase;
-    color :hsla(0, 0%, 100%, 0.6);
-}
 body {
 
     height: 100vh;
@@ -62,19 +37,13 @@ body {
 
 .image-container {
    flex: 40%;
-   position: relative;
-   background-color: aliceblue;
+   background-color: hsla(277, 64%, 61%,0.5);
 
 }
-
-#overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: hsla(277, 64%, 61%,0.5);
-} 
+img {
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+}
 
 .content-container {
     flex: 40%;
@@ -83,6 +52,32 @@ body {
    display: flex;
    flex-direction: column;
 
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 10px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    
+}
+.stats {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+#insights {
+    color: hsl(277, 64%, 61%);
+}
+
+.stats-desc {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    color :hsla(0, 0%, 100%, 0.6);
 }
 .all-stats {
     display: flex;
